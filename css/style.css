@@ -227,5 +227,27 @@ section h1 {
 
   header {
     padding-bottom: 140px; } }
+.amg-skills {
+  max-width: 960px; }
+
+.amg-badge {
+  padding: 20px 5%; }
+
+.amg-badge h3 {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  color: #FFFFFF; }
+
+@media only screen and (max-width: 639px) {
+  .amg-badge {
+    width: 50%;
+    padding: 20px 10%; } }
+.skills {
+  padding-top: 60px;
+  padding-bottom: 150px;
+  text-align: center; }
+  .skills h3 {
+    font-size: 60px; }
 
 /*# sourceMappingURL=style.css.map */
