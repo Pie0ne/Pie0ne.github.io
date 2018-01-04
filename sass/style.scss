@@ -256,3 +256,14 @@ section h1 {
     opacity: 0;
   }
 }
+
+.about {
+  background-color: #edeeef;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  .p-photo {
+    img {
+     border-radius: 25%;
+    }
+  }
+}
