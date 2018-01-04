@@ -1,8 +1,25 @@
 /* Scrool to bottom */
 
 $(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  $('#section03').on('click', function() {
+    $('html, body').animate({ 
+    	scrollTop: $('#about').offset().top}, 1000);
   });
+
+    $('#button').click(function() {
+        $('#menu').toggle('slow');
+    });
+
+    $('#homes').click(function() {
+   		$('html, body').animate({ 
+    	scrollTop: $('#home').offset().top}, 1000);
+   	});
+
+   	$('#abouts').click(function() {
+   		$('html, body').animate({ 
+    	scrollTop: $('#about').offset().top}, 1000);
+   	});
 });
+
+
+
