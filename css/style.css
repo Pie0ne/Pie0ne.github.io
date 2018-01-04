@@ -182,7 +182,13 @@ section h1 {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .logo a {
-    padding-left: 50px; } }
+    padding-left: 50px; }
+
+  header {
+    padding-bottom: 220px; }
+
+  .main-header h2 {
+    padding-bottom: 40px; } }
 @media (max-width: 767px) {
   .menu {
     display: none; }
@@ -199,12 +205,27 @@ section h1 {
     .logo a {
       padding-left: 50px; }
     .logo p {
-      margin-top: -26px; }
+      margin-top: -26px;
+      display: none; }
     .logo h3 {
       display: inline;
-      margin-left: 250px;
       color: #fff;
       font-size: 40px;
-      cursor: pointer; } }
+      cursor: pointer; }
+
+  header {
+    padding-bottom: 170px; }
+
+  .main-header h2 {
+    font-size: 80px;
+    padding-bottom: 40px; }
+  .main-header p {
+    font-size: 30px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main-header h2 {
+    padding-top: 160px; }
+
+  header {
+    padding-bottom: 140px; } }
 
 /*# sourceMappingURL=style.css.map */

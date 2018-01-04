@@ -224,7 +224,14 @@ section h1 {
     a {
       padding-left: 50px;
     }
-
+  }
+  header {
+    padding-bottom: 220px;
+  }
+  .main-header {
+    h2 {
+      padding-bottom: 40px;
+    }
   }
 }
 
@@ -249,14 +256,36 @@ section h1 {
     }
     p {
       margin-top: -26px;
+      display: none;
     }
     h3 {
       display: inline;
-      margin-left: 250px;
       color: #fff;
       font-size: 40px;  
       cursor: pointer;
     }
+  }
+  header {
+    padding-bottom: 170px;
+  }
+  .main-header {
+    h2 {
+      font-size: 80px;
+      padding-bottom: 40px;
+    }
+    p {
+      font-size: 30px;
+    }
+  }
+}
+@media (min-width:992px) and (max-width: 1199px) {
+  .main-header {
+    h2 {
+      padding-top: 160px;
+    }
+  }
+  header {
+    padding-bottom: 140px;
   }
 }
 
