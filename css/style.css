@@ -227,11 +227,18 @@ section h1 {
 
   header {
     padding-bottom: 140px; } }
+@media only screen and (max-width: 639px) {
+  .amg-badge {
+    width: 50%;
+    padding: 20px 10%; } }
 .amg-skills {
   max-width: 960px; }
 
 .amg-badge {
-  padding: 20px 5%; }
+  padding: 20px 5%;
+  cursor: pointer; }
+  .amg-badge img {
+    width: 100%; }
 
 .amg-badge h3 {
   margin: 0;
@@ -239,15 +246,40 @@ section h1 {
   text-align: center;
   color: #FFFFFF; }
 
-@media only screen and (max-width: 639px) {
-  .amg-badge {
-    width: 50%;
-    padding: 20px 10%; } }
 .skills {
   padding-top: 60px;
   padding-bottom: 150px;
   text-align: center; }
   .skills h3 {
-    font-size: 60px; }
+    font-size: 60px;
+    padding-bottom: 30px; }
+  .skills p {
+    font-size: 50px; }
+
+.css img, .js img {
+  width: 70%; }
+
+.ajax {
+  margin-top: 30px; }
+
+.sass {
+  margin-top: 12px; }
+
+.bs img {
+  width: 90%; }
+
+.process {
+  padding-top: 30px; }
+
+.react img {
+  width: 90%; }
+
+.node {
+  margin-top: 5px; }
+  .node img {
+    width: 120%; }
+
+.webpack img {
+  width: 120%; }
 
 /*# sourceMappingURL=style.css.map */

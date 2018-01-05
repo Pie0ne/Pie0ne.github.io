@@ -19,6 +19,10 @@ $(function() {
    		$('html, body').animate({ 
     	scrollTop: $('#about').offset().top}, 1000);
    	});
+   	$('#skillss').click(function() {
+   		$('html, body').animate({ 
+    	scrollTop: $('#skils').offset().top}, 1000);
+   	});
 });
 
 /*skills*/
