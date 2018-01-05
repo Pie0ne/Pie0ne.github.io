@@ -282,6 +282,21 @@ section h1 {
 .webpack img {
   width: 120%; }
 
+.works {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #edeeef; }
+  .works h3 {
+    text-align: center;
+    font-size: 60px; }
+
+.contact {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .contact h3 {
+    text-align: center;
+    font-size: 60px; }
+
 .footer {
   background-color: #26262a;
   text-align: center;
