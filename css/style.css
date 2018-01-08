@@ -284,12 +284,16 @@ section h1 {
 
 .works {
   padding-top: 30px;
-  padding-bottom: 120px;
-  background-color: #edeeef; }
+  background-color: #26262a;
+  padding-bottom: 50px; }
+  .works hr {
+    padding-bottom: 60px; }
+  .works .line {
+    padding-bottom: 30px; }
   .works h3 {
     text-align: center;
     font-size: 60px;
-    padding-bottom: 60px; }
+    color: #fff; }
   .works .ih-item .info h5 {
     color: #fff; }
 
@@ -301,26 +305,24 @@ section h1 {
 
 .github-icon {
   text-align: center;
-  padding-bottom: 60px; }
+  padding-bottom: 70px; }
   .github-icon i {
     font-size: 33px;
-    color: black;
+    color: #fff;
     padding-top: 10px; }
   .github-icon p {
     display: inline-block;
-    color: black;
+    color: #fff;
     font-size: 22px;
     padding-right: 30px;
     font-weight: 600; }
 
 .contact {
-  background-image: url("https://imageshack.com/a/img923/8323/lXA0SE.jpg");
   padding-top: 30px;
-  padding-bottom: 900px; }
+  padding-bottom: 600px; }
   .contact h3 {
-    text-align: center;
     font-size: 60px;
-    color: #fff; }
+    color: black; }
 
 .footer {
   background-color: #26262a;
