@@ -11,13 +11,13 @@ body {
   margin: 0 auto; }
 
 header {
-  padding-bottom: 400px;
+  padding-bottom: 340px;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://imageshack.com/a/img924/4852/TqiKRs.jpg"); }
 
 .menu ul {
   padding-top: 13px;
   text-align: center;
-  padding-bottom: 20px; }
+  padding-bottom: 80px; }
   .menu ul li {
     list-style-type: none;
     display: inline-block;
@@ -284,18 +284,43 @@ section h1 {
 
 .works {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 120px;
   background-color: #edeeef; }
   .works h3 {
     text-align: center;
-    font-size: 60px; }
+    font-size: 60px;
+    padding-bottom: 60px; }
+  .works .ih-item .info h5 {
+    color: #fff; }
+
+.ih-item.square {
+  position: relative;
+  height: 185px;
+  border: 8px solid #fff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
+
+.github-icon {
+  text-align: center;
+  padding-bottom: 60px; }
+  .github-icon i {
+    font-size: 33px;
+    color: black;
+    padding-top: 10px; }
+  .github-icon p {
+    display: inline-block;
+    color: black;
+    font-size: 22px;
+    padding-right: 30px;
+    font-weight: 600; }
 
 .contact {
+  background-image: url("https://imageshack.com/a/img923/8323/lXA0SE.jpg");
   padding-top: 30px;
-  padding-bottom: 30px; }
+  padding-bottom: 900px; }
   .contact h3 {
     text-align: center;
-    font-size: 60px; }
+    font-size: 60px;
+    color: #fff; }
 
 .footer {
   background-color: #26262a;
