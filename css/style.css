@@ -318,6 +318,7 @@ section h1 {
     font-weight: 600; }
 
 .contact {
+  background-color: #eee;
   padding-top: 30px;
   padding-bottom: 600px; }
   .contact h3 {
