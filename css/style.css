@@ -279,11 +279,19 @@ section h1 {
   padding-top: 60px;
   padding-bottom: 150px;
   text-align: center; }
-  .skills h3 {
-    font-size: 60px;
+  .skills .process p {
     padding-bottom: 30px; }
+  .skills .skills-header p {
+    padding-bottom: 30px;
+    padding-top: 50px; }
+  .skills .skills-header hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #333; }
+  .skills h3 {
+    font-size: 60px; }
   .skills p {
-    font-size: 50px; }
+    font-size: 40px; }
 
 .css img, .js img {
   width: 70%; }
@@ -347,9 +355,20 @@ section h1 {
     font-weight: 600; }
 
 .contact {
+  text-align: center;
   background-color: #eee;
   padding-top: 30px;
-  padding-bottom: 600px; }
+  padding-bottom: 300px; }
+  .contact hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #333; }
+  .contact .contact-form input {
+    display: block; }
+  .contact .contact-form textarea {
+    display: block; }
+  .contact .contact-form button {
+    display: block; }
   .contact h3 {
     font-size: 60px;
     color: black; }

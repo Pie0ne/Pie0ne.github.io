@@ -357,12 +357,27 @@ section h1 {
   padding-top: 60px;
   padding-bottom: 150px;
   text-align: center;
+  .process {
+    p {
+      padding-bottom: 30px;
+    }
+  }
+  .skills-header {
+    p {
+      padding-bottom: 30px;
+      padding-top: 50px;
+    }
+    hr {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-top: 1px solid #333;
+    }
+  }
   h3 {
     font-size: 60px;
-    padding-bottom: 30px;
   }
   p {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
@@ -455,9 +470,26 @@ section h1 {
     }
   }
   .contact {   
+    text-align: center;
     background-color: #eee;
     padding-top: 30px;
-    padding-bottom: 600px;
+    padding-bottom: 300px;
+    hr {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-top: 1px solid #333;
+    }
+    .contact-form {
+      input {
+        display: block;
+      }
+      textarea {
+        display: block;
+      }
+      button {
+        display: block;
+      }
+    }
     h3 {   
       font-size: 60px;
       color: black;
