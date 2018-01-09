@@ -473,21 +473,60 @@ section h1 {
     text-align: center;
     background-color: #eee;
     padding-top: 30px;
-    padding-bottom: 300px;
+    padding-bottom: 100px;
     hr {
       margin-top: 20px;
       margin-bottom: 20px;
       border-top: 1px solid #333;
     }
+    .call-header {
+      p {
+         font-size: 40px;
+         padding-top: 30px;
+      }
+    }
+    .call {
+      p {
+        font-size: 30px;
+      }
+      h4 {
+        font-size: 25px;
+      }
+      h5 {
+        font-size: 30px;
+      }
+      span {
+        font-weight: 600;
+        padding-left: 20px;
+
+       }
+    }
     .contact-form {
+      text-align: center;
+      .form-inputs {
+        text-align: center;
+        padding-top: 50px;
+      }
       input {
         display: block;
+        margin: auto;
+        width: 50%;
+        margin-bottom: 30px;
       }
       textarea {
         display: block;
+        margin: auto;
+        width: 50%;
       }
       button {
         display: block;
+        margin: auto;
+        width: 20%;
+        margin-top: 30px;
+      }
+      p {
+        text-align: center;
+        font-size: 30px;
       }
     }
     h3 {   

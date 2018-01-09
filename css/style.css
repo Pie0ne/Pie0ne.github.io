@@ -358,17 +358,45 @@ section h1 {
   text-align: center;
   background-color: #eee;
   padding-top: 30px;
-  padding-bottom: 300px; }
+  padding-bottom: 100px; }
   .contact hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border-top: 1px solid #333; }
-  .contact .contact-form input {
-    display: block; }
-  .contact .contact-form textarea {
-    display: block; }
-  .contact .contact-form button {
-    display: block; }
+  .contact .call-header p {
+    font-size: 40px;
+    padding-top: 30px; }
+  .contact .call p {
+    font-size: 30px; }
+  .contact .call h4 {
+    font-size: 25px; }
+  .contact .call h5 {
+    font-size: 30px; }
+  .contact .call span {
+    font-weight: 600;
+    padding-left: 20px; }
+  .contact .contact-form {
+    text-align: center; }
+    .contact .contact-form .form-inputs {
+      text-align: center;
+      padding-top: 50px; }
+    .contact .contact-form input {
+      display: block;
+      margin: auto;
+      width: 50%;
+      margin-bottom: 30px; }
+    .contact .contact-form textarea {
+      display: block;
+      margin: auto;
+      width: 50%; }
+    .contact .contact-form button {
+      display: block;
+      margin: auto;
+      width: 20%;
+      margin-top: 30px; }
+    .contact .contact-form p {
+      text-align: center;
+      font-size: 30px; }
   .contact h3 {
     font-size: 60px;
     color: black; }
