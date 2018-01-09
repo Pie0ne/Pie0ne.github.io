@@ -364,39 +364,68 @@ section h1 {
     margin-bottom: 20px;
     border-top: 1px solid #333; }
   .contact .call-header p {
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 30px; }
   .contact .call p {
-    font-size: 30px; }
+    font-size: 30px;
+    padding-top: 30px; }
   .contact .call h4 {
     font-size: 25px; }
-  .contact .call h5 {
-    font-size: 30px; }
   .contact .call span {
     font-weight: 600;
     padding-left: 20px; }
   .contact .contact-form {
     text-align: center; }
+    .contact .contact-form span {
+      font-weight: 600; }
     .contact .contact-form .form-inputs {
-      text-align: center;
-      padding-top: 50px; }
+      text-align: center; }
     .contact .contact-form input {
       display: block;
       margin: auto;
-      width: 50%;
-      margin-bottom: 30px; }
+      width: 45%;
+      margin-bottom: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+      border: 2px solid black; }
+      .contact .contact-form input::placeholder {
+        padding-left: 5px;
+        color: black; }
+      .contact .contact-form input:focus {
+        outline: 0; }
     .contact .contact-form textarea {
       display: block;
       margin: auto;
-      width: 50%; }
+      width: 45%;
+      border-radius: 10px;
+      border: 2px solid black; }
+      .contact .contact-form textarea::placeholder {
+        padding-left: 5px;
+        color: black; }
+      .contact .contact-form textarea:focus {
+        outline: 0; }
     .contact .contact-form button {
       display: block;
       margin: auto;
-      width: 20%;
-      margin-top: 30px; }
+      width: 15%;
+      margin-top: 30px;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      border: 1px solid #333;
+      border-radius: 50px;
+      font-size: 20px; }
+      .contact .contact-form button:hover {
+        background-color: #edeeef;
+        color: #26262a;
+        transition: 0.6s; }
+      .contact .contact-form button:focus {
+        outline: 0; }
     .contact .contact-form p {
       text-align: center;
-      font-size: 30px; }
+      font-size: 25px;
+      padding-top: 50px; }
   .contact h3 {
     font-size: 60px;
     color: black; }
