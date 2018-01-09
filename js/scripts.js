@@ -81,3 +81,21 @@ $(function(){
 $(function(){
     $('[data-toggle="tooltip"]').tooltip();   
 });
+
+/* scroll up */
+
+
+ $(window).scroll(function() {
+    if ( $(window).scrollTop() > 300 ) {
+        $('a.back-to-top').fadeIn('slow');
+      } 
+    else {
+      $('a.back-to-top').fadeOut('slow');
+       }
+    });
+    $('a.back-to-top').click(function() {
+      $('html, body').animate({
+      scrollTop: 0}, 700);
+      return false;
+    });
+            

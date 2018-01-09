@@ -368,7 +368,7 @@ section h1 {
     padding-top: 30px; }
   .contact .call p {
     font-size: 30px;
-    padding-top: 30px; }
+    padding-top: 10px; }
   .contact .call h4 {
     font-size: 25px; }
   .contact .call span {
@@ -425,7 +425,7 @@ section h1 {
     .contact .contact-form p {
       text-align: center;
       font-size: 25px;
-      padding-top: 50px; }
+      padding-top: 20px; }
   .contact h3 {
     font-size: 60px;
     color: black; }
@@ -438,5 +438,22 @@ section h1 {
   .footer p {
     color: #fff;
     font-size: 19px; }
+
+a.back-to-top {
+  display: none;
+  width: 40px;
+  height: 40px;
+  color: white;
+  position: fixed;
+  z-index: 999;
+  right: 20px;
+  bottom: 20px;
+  background: #333;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 23px;
+  margin-bottom: 15px; }
 
 /*# sourceMappingURL=style.css.map */
