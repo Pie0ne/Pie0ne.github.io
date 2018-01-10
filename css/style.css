@@ -502,11 +502,20 @@ section {
     padding-top: 30px; }
 
   .ih-item {
-    width: 50%;
-    margin: 0 auto; }
+    width: 85%;
+    margin: 0 auto;
+    height: 116px; }
 
   .contact .contact-form button {
-    width: 40%; } }
+    width: 40%; }
+  .contact .contact-form input {
+    width: 60%; }
+  .contact .contact-form textarea {
+    width: 60%; }
+  .contact .call p {
+    font-size: 20px; }
+  .contact .call span {
+    padding-left: 10px; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .logo a {
     padding-left: 50px; }

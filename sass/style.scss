@@ -693,13 +693,28 @@ section {
     }
   }
   .ih-item {
-    width: 50%;
+    width: 85%;
     margin: 0 auto;
+    height: 116px;
   }
   .contact {
     .contact-form {
       button {
         width: 40%;
+      }
+      input {
+        width: 60%;
+      }
+      textarea {
+        width: 60%;
+      }
+    }
+    .call {
+      p {
+        font-size: 20px;
+      }
+      span {
+        padding-left: 10px;
       }
     }
   }

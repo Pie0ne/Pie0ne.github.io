@@ -48,12 +48,12 @@ $(function(){
       	current = 0;
 
     function badgeRotation(passedBadge){
-    current = (current == 90) ? 271 : current + 1;
+      current = (current == 90) ? 271 : current + 1;
 
-    passedBadge.css({
-      "-webkit-transform":"rotate3d(0,1,0," + current + "deg)",
-      "-moz-transform":"rotate3d(0,1,0," + current + "deg)",
-      "transform":"rotate3d(0,1,0," + current + "deg)"
+      passedBadge.css({
+        "-webkit-transform":"rotate3d(0,1,0," + current + "deg)",
+        "-moz-transform":"rotate3d(0,1,0," + current + "deg)",
+        "transform":"rotate3d(0,1,0," + current + "deg)"
     });
 
     if (current == 360) {
