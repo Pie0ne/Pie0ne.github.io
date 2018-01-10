@@ -19,7 +19,7 @@ header {
 
 .menu {
   ul {
-    padding-top: 13px;
+    padding-top: 8px;
     text-align: center;
     padding-bottom: 80px;
     margin-top: 17px;
@@ -27,7 +27,7 @@ header {
       list-style-type: none;
       display: inline-block;
       border-radius: 50px;
-      width: 140px;
+      min-width: 120px;
       padding-top: 5px;
       padding-bottom: 5px;
       &:hover {
@@ -265,7 +265,11 @@ section h1 {
   }
   .main-header {
     h2 {
-      padding-bottom: 40px;
+      padding-top: 50px;
+      font-size: 70px;
+    }
+    p {
+      font-size: 25px;
     }
   }
 }
@@ -276,10 +280,15 @@ section h1 {
     ul {
       padding-left: 15px;
       padding-right: 15px;
+      text-align: center;
       li {
         display: block;
+        min-width: 120px;
+        &:hover {
+          background: none;
+        }
         a {
-          font-size: 35px;
+          font-size: 25px;
         }
       }
     }
@@ -290,7 +299,6 @@ section h1 {
       padding-left: 50px;
     }
     p {
-      margin-top: -26px;
       display: none;
     }
     h3 {
@@ -298,25 +306,34 @@ section h1 {
       color: #fff;
       font-size: 40px;  
       cursor: pointer;
+      margin-right: 5px;
     }
   }
   header {
     padding-bottom: 170px;
+    .navigation {
+      text-align: right;
+    }
   }
   .main-header {
     h2 {
-      font-size: 80px;
-      padding-bottom: 40px;
+      padding-top: 20px;
+      font-size: 60px;
     }
     p {
-      font-size: 30px;
+      font-size: 20px;
+      padding-top: 30px;
     }
   }
 }
 @media (min-width:992px) and (max-width: 1199px) {
   .main-header {
     h2 {
-      padding-top: 160px;
+      padding-top: 50px;
+      font-size: 85px;
+    }
+    p {
+      font-size: 35px;
     }
   }
   header {
