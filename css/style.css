@@ -212,114 +212,14 @@ section h1 {
       .about .about-me .download-btn button:focus {
         outline: 0; }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .logo a {
-    padding-left: 50px; }
-
-  header {
-    padding-bottom: 220px; }
-
-  .main-header h2 {
-    padding-top: 50px;
-    font-size: 70px; }
-  .main-header p {
-    font-size: 25px; }
-
-  .about .p-photo img {
-    width: 100%;
-    margin-top: 135px; }
-  .about .about-me .about-icons {
-    margin-left: 100px; } }
-@media (max-width: 767px) {
-  .menu {
-    display: none; }
-    .menu ul {
-      padding-left: 15px;
-      padding-right: 15px;
-      text-align: center; }
-      .menu ul li {
-        display: block;
-        min-width: 120px; }
-        .menu ul li:hover {
-          background: none; }
-        .menu ul li a {
-          font-size: 25px; }
-
-  .logo {
-    padding: 20px; }
-    .logo a {
-      padding-left: 50px; }
-    .logo p {
-      display: none; }
-    .logo h3 {
-      display: inline;
-      color: #fff;
-      font-size: 40px;
-      cursor: pointer;
-      margin-right: 10px; }
-
-  header {
-    padding-bottom: 170px; }
-    header .navigation {
-      text-align: right; }
-
-  .main-header h2 {
-    padding-top: 20px;
-    font-size: 60px; }
-  .main-header p {
-    font-size: 20px;
-    padding-top: 30px; }
-
-  .about .p-photo {
-    text-align: center; }
-    .about .p-photo img {
-      width: 40%;
-      margin-top: 65px;
-      margin: 0 auto; }
-  .about .about-me p {
-    margin-left: 15px;
-    margin-right: 15px; }
-  .about .about-me h3 {
-    padding-top: 80px;
-    text-align: center; }
-  .about .about-me .about-icons {
-    margin-left: 100px; } }
-@media (min-width: 992px) and (max-width: 1199px) {
-  .main-header h2 {
-    padding-top: 50px;
-    font-size: 85px; }
-  .main-header p {
-    font-size: 35px; }
-
-  header {
-    padding-bottom: 140px; }
-
-  .about .p-photo img {
-    width: 90%;
-    margin-top: 120px; } }
-@media only screen and (max-width: 639px) {
-  .amg-badge {
-    width: 50%;
-    padding: 20px 10%; } }
-.amg-skills {
-  max-width: 960px; }
-
-.amg-badge {
-  padding: 20px 5%;
-  cursor: pointer; }
-  .amg-badge img {
-    width: 100%; }
-
-.amg-badge h3 {
-  margin: 0;
-  line-height: 50px;
-  text-align: center;
-  color: #FFFFFF; }
-
 .skills {
   padding-top: 60px;
   padding-bottom: 150px;
   text-align: center; }
+  .skills .css img, .skills .js img {
+    width: 70%; }
+  .skills .webpack img {
+    width: 120%; }
   .skills .process p {
     padding-bottom: 30px; }
   .skills .skills-header p {
@@ -333,9 +233,6 @@ section h1 {
     font-size: 60px; }
   .skills p {
     font-size: 40px; }
-
-.css img, .js img {
-  width: 70%; }
 
 .ajax {
   margin-top: 30px; }
@@ -356,9 +253,6 @@ section h1 {
   margin-top: 5px; }
   .node img {
     width: 120%; }
-
-.webpack img {
-  width: 120%; }
 
 .works {
   padding-top: 30px;
@@ -496,5 +390,148 @@ a.back-to-top {
   text-align: center;
   font-size: 23px;
   margin-bottom: 15px; }
+
+@media only screen and (max-width: 639px) {
+  .amg-badge {
+    width: 50%;
+    padding: 20px 10%; } }
+.amg-skills {
+  max-width: 960px; }
+
+.amg-badge {
+  padding: 20px 5%;
+  cursor: pointer; }
+  .amg-badge .css img {
+    width: 70%; }
+  .amg-badge img {
+    width: 100%; }
+
+.amg-badge h3 {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  color: #FFFFFF; }
+
+@media (max-width: 767px) {
+  .menu {
+    display: none; }
+    .menu ul {
+      padding-left: 15px;
+      padding-right: 15px;
+      text-align: center; }
+      .menu ul li {
+        display: block;
+        min-width: 120px; }
+        .menu ul li:hover {
+          background: none; }
+        .menu ul li a {
+          font-size: 25px; }
+
+  .logo {
+    padding: 20px; }
+    .logo a {
+      padding-left: 50px; }
+    .logo p {
+      display: none; }
+    .logo h3 {
+      display: inline;
+      color: #fff;
+      font-size: 40px;
+      cursor: pointer;
+      margin-right: 10px; }
+
+  header {
+    padding-bottom: 170px; }
+    header .navigation {
+      text-align: right; }
+
+  .main-header h2 {
+    padding-top: 20px;
+    font-size: 60px; }
+  .main-header p {
+    font-size: 20px;
+    padding-top: 30px; }
+
+  .about .p-photo {
+    text-align: center; }
+    .about .p-photo img {
+      width: 40%;
+      margin-top: 65px;
+      margin: 0 auto; }
+  .about .about-me p {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .about .about-me h3 {
+    padding-top: 80px;
+    text-align: center; }
+  .about .about-me .about-icons {
+    display: block;
+    margin-top: 30px;
+    margin-left: 10px; }
+  .about .about-me button {
+    margin-left: 10px; }
+
+  .skills .css img, .skills .js img {
+    width: 55%; }
+  .skills .bs img {
+    width: 70%; }
+  .skills .ajax img {
+    margin-top: -280px;
+    width: 85%; }
+  .skills .webpack img {
+    width: 90%;
+    margin-top: -190px; }
+
+  .amg-badge img {
+    width: 75%; }
+
+  .sass {
+    margin-top: 12px; }
+
+  .react img {
+    width: 60%;
+    margin-top: 80px; }
+
+  .es6 img {
+    width: 60%; }
+
+  .node {
+    margin-top: 5px; }
+    .node img {
+      width: 70%; }
+
+  .process p {
+    padding-top: 30px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo a {
+    padding-left: 50px; }
+
+  header {
+    padding-bottom: 220px; }
+
+  .main-header h2 {
+    padding-top: 50px;
+    font-size: 70px; }
+  .main-header p {
+    font-size: 25px; }
+
+  .about .p-photo img {
+    width: 100%;
+    margin-top: 135px; }
+  .about .about-me .about-icons {
+    margin-left: 100px; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main-header h2 {
+    padding-top: 50px;
+    font-size: 85px; }
+  .main-header p {
+    font-size: 35px; }
+
+  header {
+    padding-bottom: 140px; }
+
+  .about .p-photo img {
+    width: 90%;
+    margin-top: 120px; } }
 
 /*# sourceMappingURL=style.css.map */
