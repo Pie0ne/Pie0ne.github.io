@@ -1,5 +1,3 @@
-
-
 *,
 *:before,
 *:after {
@@ -13,6 +11,8 @@ body {
   width: 100%;
   margin: 0 auto;
 }
+
+// header section 
 
 header {
   padding-bottom: 340px;
@@ -39,10 +39,10 @@ header {
       padding-top: 5px;
       padding-bottom: 5px;
       &:hover {
-            background: rgba(255,255,255, 0.1);
-            cursor: pointer;
-            transition: .7s;           
-          }
+        background: rgba(255,255,255, 0.1);
+        cursor: pointer;
+        transition: .7s;           
+      }
       a {
         color: #fff;
         font-size: 25px;
@@ -85,7 +85,329 @@ header {
   }
 }
 
-/*Scroll to bottom*/
+// about section
+
+.about {
+    background-color: #edeeef;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .p-photo {
+      img {
+        border-radius: 25%;
+        width: 65%;
+      }
+    }
+    .about-me {
+      hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-top: 1px solid #333;
+      }
+      .about-icons {
+        margin-left: 200px;
+        display: inline;
+        i {
+          font-size: 50px;
+          cursor: pointer;
+          padding: 10px;
+          color: #333;
+        }
+      }
+      h3 {
+        font-size: 60px;
+        margin-top: -10px;
+      }
+      p {
+        font-size: 20px;
+        padding-bottom: 35px;
+        font-family: 'Lato';
+        padding-top: 30px;
+        letter-spacing: 1.5px;
+      }
+      .download-btn {
+        display: inline-block;
+        font-size: 20px;
+        i {
+          padding-right: 10px;
+        }
+        button {
+          padding: 15px;
+          background-color: #333;
+          color: #fff;
+          border: 1px solid #333;
+          border-radius: 50px;
+          &:hover {
+            background-color: #edeeef;
+            color: #26262a;
+            transition: 0.6s;
+          }
+          &:focus {
+          outline: 0;
+          }
+        }
+      }
+    }
+  } 
+
+// skills section
+
+.skills {
+  padding-top: 60px;
+  padding-bottom: 150px;
+  text-align: center;
+  .css, .js {
+    img {
+      width: 70%; 
+    }
+  }
+  .webpack {
+    img {
+      width: 120%;
+    }
+  }
+  .process {
+    p {
+      padding-bottom: 30px;
+    }
+  }
+  .skills-header {
+    p {
+      padding-bottom: 30px;
+      padding-top: 50px;
+    }
+    hr {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-top: 1px solid #333;
+    }
+  }
+  h3 {
+    font-size: 60px;
+  }
+  p {
+    font-size: 40px;
+  }
+}
+
+.ajax {
+  margin-top: 30px;
+}
+
+.sass {
+  margin-top: 12px;
+}
+
+.bs {
+  img {
+    width: 90%;
+  }
+}
+
+.process {
+  padding-top: 30px;
+}
+
+.react {
+  img {
+    width: 90%;
+  }
+}
+
+.node {
+  margin-top: 5px;
+  img {
+    width: 120%;
+  }
+}
+
+// works section
+
+.works {
+  padding-top: 30px;
+  background-color: #26262a;
+  padding-bottom: 50px;
+  hr {
+    padding-bottom: 60px;
+  }
+  .line {
+    padding-bottom: 30px;
+  }
+  h3 {
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+  }
+  .ih-item { 
+    .square {
+      position: relative;
+      height: 185px;
+      border: 8px solid #fff;
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+    .info {
+      h5 {
+        color: #fff;
+      }
+    }
+  }
+}
+  
+.github-icon { 
+  text-align: center; 
+  padding-bottom: 70px;  
+  i {
+    font-size: 33px;
+    color: #fff;
+    padding-top: 10px;
+  }
+  p {
+    display: inline-block;
+    color: #fff;
+    font-size: 22px;
+    padding-right: 30px;
+    font-weight: 600;
+  }
+}
+
+// contact section
+
+.contact {   
+  text-align: center;
+  background-color: #eee;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #333;
+  }
+  .call-header {
+    p {
+      font-size: 35px;
+      padding-top: 30px;
+    }
+  }
+  .call {
+    p {
+      font-size: 30px;
+      padding-top: 10px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    h4 {
+      font-size: 25px;
+    }
+    span {
+      font-weight: 600;
+      padding-left: 20px;
+    }
+  }
+  .contact-form {
+    text-align: center;
+    span {
+      font-weight: 600;
+    }   
+    .form-inputs {
+      text-align: center;
+    }
+    input {
+      display: block;
+      margin: auto;
+      width: 45%;
+      margin-bottom: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+      border: 2px solid black;
+      &::placeholder {
+        padding-left: 5px;
+        color: black;
+      }
+      &:focus {
+        outline: 0;
+      }
+    }
+    textarea {
+      display: block;
+      margin: auto;
+      width: 45%;
+      border-radius: 10px;
+      border: 2px solid black;
+      &::placeholder {
+        padding-left: 5px;
+        color: black;
+      }
+      &:focus {
+        outline: 0;
+      }
+    }
+    button {
+      display: block;
+      margin: auto;
+      width: 15%;
+      margin-top: 30px;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      border: 1px solid #333;
+      border-radius: 50px;
+      font-size: 20px;
+      &:hover {
+        background-color: #edeeef;
+        color: #26262a;
+        transition: 0.6s;
+      }
+      &:focus {
+        outline: 0;
+      }
+    }
+    p {
+      text-align: center;
+      font-size: 25px;
+      padding-top: 20px;
+    }
+  }
+  h3 {   
+    font-size: 60px;
+    color: black;
+    }
+  }
+  
+// footer section
+
+.footer {
+  background-color: #26262a;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  p {
+    color: #fff;
+    font-size: 19px;
+  }
+}
+
+// back to top button
+
+a.back-to-top {
+  display: none;
+  width: 40px;
+  height: 40px;
+  color: white;
+  position: fixed;
+  z-index: 999;
+  right: 40px;
+  bottom: 20px;
+  background: #333;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 23px;
+  margin-bottom: 15px; 
+}
+
+//scroll to bottom button //
+
 section {
   position: relative;
   width: 100%;
@@ -113,7 +435,6 @@ section h1 {
   text-align: center;
   white-space: nowrap;
 }
-
 .demo a {
   position: absolute;
   bottom: 20px;
@@ -131,7 +452,6 @@ section h1 {
 .demo a:hover {
   opacity: .5;
 }
-
 #section03 a span {
   position: absolute;
   top: 0;
@@ -172,6 +492,7 @@ section h1 {
   animation: sdb03 3s infinite;
   box-sizing: border-box;
 }
+
 @-webkit-keyframes sdb03 {
   0% {
     opacity: 0;
@@ -203,316 +524,7 @@ section h1 {
   }
 }
 
-.about {
-    background-color: #edeeef;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    .p-photo {
-      img {
-        border-radius: 25%;
-        width: 65%;
-      }
-    }
-    .about-me {
-      hr {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border-top: 1px solid #333;
-
-      }
-      .about-icons {
-        margin-left: 200px;
-        display: inline;
-      i {
-        font-size: 50px;
-        cursor: pointer;
-        padding: 10px;
-        color: #333;
-        }
-      }
-      h3 {
-        font-size: 60px;
-        margin-top: -10px;
-      }
-      p {
-        font-size: 20px;
-        padding-bottom: 35px;
-        font-family: 'Lato';
-        padding-top: 30px;
-        letter-spacing: 1.5px;
-      }
-      .download-btn {
-        display: inline-block;
-        font-size: 20px;
-        i {
-          padding-right: 10px;
-        }
-        button {
-          padding: 15px;
-          background-color: #333;
-          color: #fff;
-          border: 1px solid #333;
-          border-radius: 50px;
-          &:hover {
-            background-color: #edeeef;
-            color: #26262a;
-            transition: 0.6s;
-          }
-          &:focus {
-          outline: 0;
-          }
-        }
-      }
-    }
-} 
-
-.skills {
-  padding-top: 60px;
-  padding-bottom: 150px;
-  text-align: center;
-  .css, .js {
-    img {
-     width: 70%; 
-   }
-  }
-  .webpack {
-  img {
-    width: 120%;
-  }
- }
-  .process {
-    p {
-      padding-bottom: 30px;
-    }
-  }
-  .skills-header {
-    p {
-      padding-bottom: 30px;
-      padding-top: 50px;
-    }
-    hr {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      border-top: 1px solid #333;
-    }
-  }
-  h3 {
-    font-size: 60px;
-  }
-  p {
-    font-size: 40px;
-  }
-}
-
- .ajax {
-  margin-top: 30px;
- }
-
- .sass {
-  margin-top: 12px;
- }
-
- .bs {
-  img {
-    width: 90%;
-  }
- }
-
- .process {
-  padding-top: 30px;
- }
-
- .react {
-  img {
-    width: 90%;
-  }
- }
-
- .node {
-  margin-top: 5px;
-  img {
-    width: 120%;
-  }
- }
-
-.works {
-    padding-top: 30px;
-    background-color: #26262a;
-    padding-bottom: 50px;
-    hr {
-      padding-bottom: 60px;
-    }
-    .line {
-      padding-bottom: 30px;
-    }
-    h3 {
-      text-align: center;
-      font-size: 60px;
-      color: #fff;
-    }
-    .ih-item { 
-      .info {
-        h5 {
-          color: #fff;
-        }
-      }
-    }
-  }
-
-  .ih-item.square {
-    position: relative;
-    height: 185px;
-    border: 8px solid #fff;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-  }
-  
-  .github-icon { 
-    text-align: center; 
-    padding-bottom: 70px;  
-    i {
-      font-size: 33px;
-      color: #fff;
-      padding-top: 10px;
-    }
-    p {
-      display: inline-block;
-      color: #fff;
-      font-size: 22px;
-      padding-right: 30px;
-      font-weight: 600;
-    }
-  }
-  .contact {   
-    text-align: center;
-    background-color: #eee;
-    padding-top: 30px;
-    padding-bottom: 100px;
-    hr {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      border-top: 1px solid #333;
-    }
-    .call-header {
-      p {
-         font-size: 35px;
-         padding-top: 30px;
-      }
-    }
-    .call {
-      p {
-        font-size: 30px;
-        padding-top: 10px;
-        margin-left: 15px;
-        margin-right: 15px;
-      }
-      h4 {
-        font-size: 25px;
-      }
-      span {
-        font-weight: 600;
-        padding-left: 20px;
-
-       }
-    }
-    .contact-form {
-      span {
-        font-weight: 600;
-      }
-      text-align: center;
-      .form-inputs {
-        text-align: center;
-      }
-      input {
-        display: block;
-        margin: auto;
-        width: 45%;
-        margin-bottom: 30px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        border-radius: 10px;
-        border: 2px solid black;
-        &::placeholder {
-          padding-left: 5px;
-          color: black;
-        }
-        &:focus {
-          outline: 0;
-        }
-      }
-      textarea {
-        display: block;
-        margin: auto;
-        width: 45%;
-        border-radius: 10px;
-        border: 2px solid black;
-        &::placeholder {
-          padding-left: 5px;
-          color: black;
-        }
-        &:focus {
-          outline: 0;
-        }
-      }
-      button {
-        display: block;
-        margin: auto;
-        width: 15%;
-        margin-top: 30px;
-        padding: 10px;
-        background-color: #333;
-        color: #fff;
-        border: 1px solid #333;
-        border-radius: 50px;
-        font-size: 20px;
-          &:hover {
-            background-color: #edeeef;
-            color: #26262a;
-            transition: 0.6s;
-          }
-          &:focus {
-          outline: 0;
-        }
-      }
-      p {
-        text-align: center;
-        font-size: 25px;
-        padding-top: 20px;
-      }
-    }
-    h3 {   
-      font-size: 60px;
-      color: black;
-    }
-  }
-
- .footer {
-  background-color: #26262a;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  p {
-    color: #fff;
-    font-size: 19px;
-  }
- }
-
-a.back-to-top {
-  display: none;
-  width: 40px;
-  height: 40px;
-  color: white;
-  position: fixed;
-  z-index: 999;
-  right: 40px;
-  bottom: 20px;
-  background: #333;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-  text-align: center;
-  font-size: 23px;
-  margin-bottom: 15px; 
-}
+// media queries
 
 @media only screen and (max-width : 639px) {
   .amg-badge {
@@ -542,7 +554,6 @@ a.back-to-top {
   text-align: center;
   color: #FFFFFF;
 }
-
 
 @media (max-width: 767px) {
   .menu {
@@ -630,66 +641,64 @@ a.back-to-top {
     }
   }
   .bs {
-  img {
-    width: 70%;
-  }
+    img {
+      width: 70%;
+    }
  }
- .ajax {
-  img {
-    margin-top: -280px;
-    width: 85%;
+  .ajax {
+    img {
+      margin-top: -280px;
+      width: 85%;
+    }
   }
- }
  .webpack {
   img {
     width: 90%;
     margin-top: -180px;
-  }
- }
-}
+    }
+  }  
+} 
   .amg-badge {
     img {
-      width: 75%;
+     width: 75%;
     }
   }
- .sass {
-  margin-top: 12px;
- }
-
- .react {
-  img {
-    width: 60%;
-    margin-top: 80px;
+  .sass {
+    margin-top: 12px;
   }
- }
+  .react {
+    img {
+      width: 60%;
+      margin-top: 80px;
+    }
+  }
   .es6 {
     img {
       width: 60%;
     }
   }
- .node {
-  margin-top: 5px;
-  img {
-    width: 70%;
+  .node {
+    margin-top: 5px;
+    img {
+      width: 70%;
+    }
   }
- }
- 
- .process {
-  p {
-    padding-top: 30px;
+  .process {
+    p {
+     padding-top: 30px;
+    }
   }
- }
- .ih-item {
-  width: 50%;
-  margin: 0 auto;
- }
- .contact {
-   .contact-form {
+  .ih-item {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .contact {
+    .contact-form {
       button {
         width: 40%;
       }
-   }
- }
+    }
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
