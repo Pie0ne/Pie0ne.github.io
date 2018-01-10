@@ -303,7 +303,9 @@ section h1 {
     padding-top: 30px; }
   .contact .call p {
     font-size: 30px;
-    padding-top: 10px; }
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px; }
   .contact .call h4 {
     font-size: 25px; }
   .contact .call span {
@@ -505,7 +507,10 @@ a.back-to-top {
 
   .ih-item {
     width: 50%;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .contact .contact-form button {
+    width: 40%; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .logo a {
     padding-left: 50px; }
