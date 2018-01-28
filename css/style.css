@@ -3,6 +3,8 @@
 *:after {
   box-sizing: border-box; }
 
+*:focus {outline:none !important}
+
 body {
   line-height: 1.6;
   overflow-x: hidden;
@@ -50,6 +52,7 @@ header {
     padding-top: 15px; }
   .logo h3 {
     display: none; }
+    .logo:focus {outline:0 !important;}
 
 .main-header {
   text-align: center; }
