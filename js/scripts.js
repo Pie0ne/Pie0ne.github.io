@@ -1,5 +1,7 @@
 /* scrool to bottom */
 
+  
+
 $(function() {
   $('#section03').on('click', function() {
     $('html, body').animate({ 
@@ -99,3 +101,27 @@ $(function(){
       return false;
     });
             
+
+  /* Scroll Reveal */
+
+// About-me
+
+ScrollReveal().reveal('.about-me-line', {delay: 600 , reset: false, mobile: false} );
+ScrollReveal().reveal('.p-photo', {delay: 700 , reset: false, mobile: false, rotate: { x: 0, y: 180, z: 0 }} );
+ScrollReveal().reveal('.description', {delay: 800 , reset: false, mobile: false} );
+ScrollReveal().reveal('.download-btn', {delay: 800 , reset: false, mobile: false} );
+ScrollReveal().reveal('.about-icons', {delay: 800 , reset: false, mobile: false} );
+
+//skills
+
+ScrollReveal().reveal('.amg-badge-collection-reveal1', {delay: 600 , reset: false, scale: 2.5, mobile: false });
+ScrollReveal().reveal('.amg-badge-collection-reveal2', {delay: 600 , reset: false, scale: 2.5, mobile: false} );
+ScrollReveal().reveal('.amg-badge-collection-reveal3', {delay: 600 , reset: false, scale: 2.5, mobile: false} );
+
+// works
+
+ScrollReveal().reveal('.works', {delay: 600 , reset: false, mobile: false });
+
+//contact 
+
+ScrollReveal().reveal('.contact', {delay: 600 , reset: false, mobile: false });
