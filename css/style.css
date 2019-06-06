@@ -3,8 +3,6 @@
 *:after {
   box-sizing: border-box; }
 
-*:focus {outline:none !important}
-
 body {
   line-height: 1.6;
   overflow-x: hidden;
@@ -14,7 +12,8 @@ body {
 
 header {
   padding-bottom: 340px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://imageshack.com/a/img924/4852/TqiKRs.jpg"); }
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://imageshack.com/a/img924/4852/TqiKRs.jpg");
+  background-size: cover; }
   header .navigation .row {
     margin-left: 0;
     margin-right: 0; }
@@ -52,7 +51,6 @@ header {
     padding-top: 15px; }
   .logo h3 {
     display: none; }
-    .logo:focus {outline:0 !important;}
 
 .main-header {
   text-align: center; }
