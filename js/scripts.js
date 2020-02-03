@@ -1,42 +1,39 @@
 /* scrool to bottom */
 
-  
 
 $(function() {
   $('#section03').on('click', function() {
-    $('html, body').animate({ 
+    $('html, body').animate({
     	scrollTop: $('#about').offset().top}, 1000);
   	});
-  	
-  	/*collapsed menu */ 
+  	/*collapsed menu */
 
     $('#button').click(function() {
         $('#menu').toggle('slow');
     });
-    
     /* sliding to section */
 
     $('#homes').click(function() {
-   		$('html, body').animate({ 
+   		$('html, body').animate({
     	scrollTop: $('#home').offset().top}, 1000);
    	});
 
    	$('#abouts').click(function() {
-   		$('html, body').animate({ 
+   		$('html, body').animate({
     	scrollTop: $('#about').offset().top}, 1000);
    	});
    	$('#skillss').click(function() {
-   		$('html, body').animate({ 
+   		$('html, body').animate({
     	scrollTop: $('#skils').offset().top}, 1000);
    	});
 
    	$('#workss').click(function() {
-   		$('html, body').animate({ 
+   		$('html, body').animate({
     	scrollTop: $('#works').offset().top}, 1000);
    	});
 
    	$('#contacts').click(function() {
-   		$('html, body').animate({ 
+   		$('html, body').animate({
     	scrollTop: $('#contact').offset().top}, 1000);
    	});
 });
@@ -81,7 +78,7 @@ $(function(){
 
 
 $(function(){
-    $('[data-toggle="tooltip"]').tooltip();   
+    $('[data-toggle="tooltip"]').tooltip();
 });
 
 /* scroll up */
@@ -100,7 +97,7 @@ $(function(){
       scrollTop: 0}, 700);
       return false;
     });
-            
+
 
   /* Scroll Reveal */
 
@@ -115,6 +112,6 @@ ScrollReveal().reveal('.amg-badge-collection-reveal3', {delay: 600 , reset: fals
 
 ScrollReveal().reveal('.works', {delay: 600 , reset: false, mobile: false });
 
-//contact 
+//contact
 
 ScrollReveal().reveal('.contact', {delay: 600 , reset: false, mobile: false });
